@@ -52,10 +52,6 @@ function getweatherinfo(weather){
 }
 
 function Location(city,geoData){
-    //     "search_query": "seattle",
-    //   "formatted_query": "Seattle, WA, USA",
-    //   "latitude": "47.606210",
-    //   "longitude": "-122.332071"
     this.search_query = city;
     this.formatted_query = geoData[0].display_name;
     this.latitude = geoData[0].lat;
